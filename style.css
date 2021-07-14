@@ -158,7 +158,7 @@ body {
          Footer Section
    -------------------------------- */
 .container-footer{
-    
+    overflow: hidden;
     
 }
 .footer-image img{
@@ -179,19 +179,23 @@ body {
     margin-left: 50%;
     
 }
+
+.footer-copyright{
+    margin-left: 45%;
+}
 /* Media Queries */
 
 /* Mobile Devices */
 
 @media only screen and (max-width: 812px){
     .container-1{
-        width: 100%;
+        max-width: 100%;
     }
 
-    .banner-section{
+    .banner-section,
+    .container,
+    .container-cards {
         grid-template-columns: repeat(1,1fr);
     }
-    .container, .container-cards{
-        display: none;
-    }
+   
 }
