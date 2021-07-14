@@ -60,10 +60,10 @@ body {
     border: none;
 }
 
-.btn a:hover {
-    background-color: #9e7f8a;
-    transition: 2s;
+.banner-content:hover .btn{
+    transform: scale(1.2);
 }
+
 
 /* image section */
 .banner-image img {
@@ -152,8 +152,9 @@ body {
     text-align:left;
 }
 
-.container-cards:hover .container-card-image{
+ .container-card-image:hover img{
     transform: scale(0.9);
+    transition: transform 2s ease-in-out;
 }
 /* Media Queries */
 
