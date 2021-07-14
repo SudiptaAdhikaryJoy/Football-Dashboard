@@ -203,14 +203,20 @@ body {
 /* Mobile Devices */
 
 @media only screen and (max-width: 812px){
-    .container-1{
-        max-width: 100%;
-    }
-
-    .banner-section,
-    .container,
-    .container-cards {
-        grid-template-columns: repeat(1,1fr);
-    }
+   .container-1{
+       width: 100%;
+       height: fit-content;
+   }
    
+    .banner-section{
+       
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        align-content: flex-start;
+    }
+   .container, .container-cards,.container-footer{
+       display: none;
+   }
 }
