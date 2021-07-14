@@ -60,10 +60,11 @@ body {
     border: none;
 }
 
-.banner-content:hover .btn{
+/* Button hover add */
+.btn:hover{
     transform: scale(1.2);
+    transition: transform 1s ease-in-out;
 }
-
 
 /* image section */
 .banner-image img {
@@ -75,7 +76,6 @@ body {
 .banner-image:hover img {
     cursor: pointer;
     transition: 400ms;
-    color: #E02C6D;
 }
 /* player card section */
 
@@ -94,7 +94,6 @@ body {
     grid-template-columns: auto auto auto;
     grid-gap: 30px;
     padding: 15px 30px; 
-    
 }
 
 .card{
@@ -119,9 +118,7 @@ body {
         border-radius: 5px;
 }
 
-.container-card-image:hover img{ 
-    color: lightgrey;
-}
+
 /* using grid property */
 .container-cards{
     display:grid;
@@ -155,6 +152,26 @@ body {
  .container-card-image:hover img{
     transform: scale(0.9);
     transition: transform 2s ease-in-out;
+}
+
+/* --------------------------------
+         Footer Section
+   -------------------------------- */
+.container-footer{
+    
+    
+}
+.footer-image img{
+       width: 483.87px;
+       height: 110px;
+ }
+
+.footer-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
 }
 /* Media Queries */
 
