@@ -173,6 +173,12 @@ body {
     width: 40%;
 
 }
+
+.footer-social{
+    display: block;
+    margin-left: 50%;
+    
+}
 /* Media Queries */
 
 /* Mobile Devices */
